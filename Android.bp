@@ -58,3 +58,12 @@ prebuilt_etc_xml {
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
 }
+
+prebuilt_etc_xml {
+	name: "c2_manifest_vendor",
+	owner: "redmi",
+	src: "proprietary/vendor/etc/vintf/manifest/c2_manifest_vendor.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
